@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Button Overlay</title>
+    <style>
+        .box {
+            position: relative;
+            width: fit-content;
+            display: inline-block;
+        }
+
+        .box img {
+            display: block;
+        }
+
+        .box .button {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ff5733; /* Button background color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .box .button:hover {
+            background-color: #ff784e; /* Hover color */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="brtvschitw.jpeg" alt="Match">
+        <a href="#" class="button">Booking Now</a>
+    </div>
+</body>
+</html>
