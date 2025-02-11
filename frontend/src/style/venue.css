@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.stadium-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 15px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stadium-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    object-fit: contain;
+}
+
+.stadium-info h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.stadium-info .country {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}

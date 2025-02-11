@@ -1,0 +1,54 @@
+table.css
+.fixtures-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .fixtures-header {
+    text-align: center;
+    background: #b71c1c;
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .fixtures-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .fixtures-table th,
+  .fixtures-table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .fixtures-table th {
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .fixtures-table tr:hover {
+    background-color: #ffe0e0;
+  }
+  
+  .date-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .day {
+    font-size: 12px;
+    color: #666;
+  }
+  

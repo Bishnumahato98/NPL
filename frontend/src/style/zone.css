@@ -1,0 +1,259 @@
+/* General Reset
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.banner {
+  width: 100%; 
+  height: 300px; 
+  object-fit: contain; 
+  background-color: #f0f0f0; 
+}
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.leftside,
+.rightside {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 0 10px; 
+}
+
+.leftside p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.ticket-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-control button {
+  padding: 5px 10px;
+  background-color: #57c727;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quantity-control input {
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn,
+.main-btn {
+  padding: 10px 15px;
+  background-color: #57c727;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.add-btn:hover,
+.main-btn:hover {
+  background-color: #0056b3;
+}
+
+.main-btn {
+  margin-top: 20px;
+  display: block;
+  width: 100%; 
+}  */
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+
+.conatiner,.img img{
+  max-height: 390px;
+}
+.img img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-bottom: 20px;
+}
+
+
+.content {
+  display: flex;
+  
+}
+
+
+.leftside {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+
+.rightside {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+
+.softwarica, .coventry, .vip {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.softwarica h4, .coventry h4, .vip h4 {
+  margin: 0;
+}
+
+
+button {
+  padding: 10px 15px;
+  background-color: #57c727;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.main-btn {
+  margin-top: 20px;
+  width: 100px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
+.rightside h3{
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.quantity-input {
+  width: 50px; 
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.quantity-btn {
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.quantity-btn:hover {
+  background-color: #0056b3;
+}
+.vip p{
+  position: relative;
+  left: 20px;
+}
+.rightside a{
+  text-decoration: none;
+}
+img {
+  width: 100%; 
+  height: 400px; 
+  display: block; 
+}
+
+
+.ticket-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds space between elements */
+}
+
+.ticket-controls button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #2ef00c;
+}
+
+.ticket-controls span {
+  font-size: 18px;
+  font-weight: bold;
+}
