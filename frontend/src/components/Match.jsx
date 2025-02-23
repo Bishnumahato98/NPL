@@ -110,7 +110,7 @@ const fixturesData = [
   { date: "15 Dec", day: "Sunday", time: "01:15 PM", match: "Pokhara Avengers vs Lumbini Lions" },
   { date: "16 Dec", day: "Monday", time: "09:15 AM", match: "Sudurpaschim Royals vs Karnali Yaks" }
   
-  
+
 ];
 
 const Match = () => {
