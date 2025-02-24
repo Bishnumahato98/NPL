@@ -2,7 +2,7 @@ import React from 'react';
 import { FaPlane } from 'react-icons/fa'; // Importing plane icon from react-icons
 import "../style/team.css"
 
-// Functional component for each category (Batters, All-Rounders, Bowlers)
+// Functional component for each category (Batters, All-Rounders, Bowlers).
 const Category = ({ title, players }) => {
     return (
         <div className="category">
@@ -56,3 +56,4 @@ const Biratnagar = () => {
 };
 
 export default Biratnagar;
+
