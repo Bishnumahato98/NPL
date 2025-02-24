@@ -23,7 +23,7 @@ const Category = ({ title, players }) => {
 const Biratnagar = () => {
     // Data for Batters, All-Rounders, and Bowlers
     const batters = [
-        { name: 'Lokesh Bam  (WK)' },
+        { name: 'Lokesh Bams  (WK)' },
         { name: 'Dipak Bohara' },
         { name: 'Nicholas Kirton', icon: true },
         { name: 'Naren Bhatta' },
