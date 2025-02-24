@@ -40,7 +40,7 @@ const Biratnagar = () => {
     ];
 
     const bowlers = [
-        { name: 'Sandeep Lamichhane  (C)' },
+        { name: 'Sandeep Lamichhanes  (C)' },
         { name: 'Subash Bhandari' },
         { name: 'Anil Kharel' },
         { name: 'Chris Sole', icon: true },
